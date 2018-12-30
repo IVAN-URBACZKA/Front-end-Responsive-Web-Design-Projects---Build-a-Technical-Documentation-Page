@@ -113,6 +113,17 @@ main{
     padding: 5%;
 }
 
+a{
+    color: #222;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+
 
 @media (min-width:768px){
    
@@ -136,16 +147,7 @@ main{
         list-style: none;
     }
 
-    a{
-        color: #222;
-        font-size: 20px;
-        text-decoration: none;
-    }
-
-    a:hover{
-        text-decoration: underline;
-    }
-    
+  
 }
 
 
