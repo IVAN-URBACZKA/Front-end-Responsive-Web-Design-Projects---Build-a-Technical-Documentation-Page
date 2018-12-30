@@ -11,9 +11,13 @@
   <link rel="manifest" href="site.webmanifest">
   <link rel="apple-touch-icon" href="icon.png">
   <!-- Place favicon.ico in the root directory -->
+  <link rel="icon" href="favicon.ico" />
+
 
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
 </head>
 
 <body>
@@ -22,7 +26,185 @@
   <![endif]-->
 
   <!-- Add your site or application content here -->
-  <p>Hello world! This is HTML5 Boilerplate.</p>
+<nav id="navbar">
+
+<header><h1>Front-end Documentation</h1></header>
+
+<ul>
+  <li><a href="#introduction" class="nav-link">Introduction</a></li>
+  <li><a href="#html" class="nav-link">Html</a></li>
+  <li><a href="#css" class="nav-link">Css</a></li>
+  <li><a href="#javascript" class="nav-link">Javascript</a></li>
+  <li><a href="#react" class="nav-link">React</a></li>
+</ul>
+
+</nav>
+
+
+
+
+
+  <main id="main-doc">
+
+   <section id="introduction" class="main-section">
+
+    <header>
+
+      <h2>INTRODUCTION</h2>
+
+     </header>
+
+     <p>Front-end web development, also known as client-side development is the practice of producing HTML, CSS and JavaScript for a website or Web Application so that a user can see and interact with them directly. The challenge associated with front end development is that the tools and techniques used to create the front end of a website change constantly and so the developer needs to constantly be aware of how the field is developing.</p>
+      <p>The objective of designing a site is to ensure that when the users open up the site they see the information in a format that is easy to read and relevant. This is further complicated by the fact that users now use a large variety of devices with varying screen sizes and resolutions thus forcing the designer to take into consideration these aspects when designing the site. They need to ensure that their site comes up correctly in different browsers (cross-browser), different operating systems (cross-platform) and different devices (cross-device), which requires careful planning on the side of the developer.</p>
+
+      <code>
+
+
+        if (true) {
+          let y = 5;
+        }
+        console.log(y);  
+        // ReferenceError: y is not defined
+
+
+      </code>
+
+      <ul>
+
+        <li>Html</li>
+
+        <li>Css</li>
+      </ul>
+
+   </section>
+
+   <section id="html" class="main-section">
+
+    <header>
+
+      <h2>HTML</h2>
+
+     </header>
+
+     <p>HTML (HyperText Markup Language) is the most basic building block of the Web. It defines the meaning and structure of web content. Other technologies besides HTML are generally used to describe a web page's appearance/presentation (CSS) or functionality/behavior (JavaScript).</p>
+      <p>"HyperText" refers to links that connect web pages to one another, either within a single website or between websites. Links are a fundamental aspect of the Web. By uploading content to the Internet and linking it to pages created by other people, you become an active participant in the World Wide Web.</p>
+
+      <code>
+        <p>Voici un exemple d'utilisation de la balise HTML <code>&lt;br&gt;</code>:</p>
+<pre><code>&lt;p&gt;
+  Un paragraphe avec un retour à la ligne.&lt;br&gt;
+  Et la suite du paragraphe.
+&lt;/p&gt;</code></pre>
+      </code>
+
+      <ul>
+
+        <li>Description language</li>
+
+        <li>HTML5</li>
+      </ul>
+
+   </section>
+
+   <section id="css" class="main-section">
+
+    <header>
+
+      <h2>CSS</h2>
+
+     </header>
+
+     <p>Cascading Style Sheets (CSS) is a stylesheet language used to describe the presentation of a document written in HTML or XML (including XML dialects such as SVG, MathML or XHTML). CSS describes how elements should be rendered on screen, on paper, in speech, or on other media.</p>
+      <p>CSS is one of the core languages of the open web and is standardized across browsers according to the W3C specification. Developed in levels, CSS1 is now obsolete, CSS2.1 is a recommendation, and CSS3, now split into smaller modules, is progressing on the standardization track.</p>
+
+      <code>
+
+        html {
+          color: #222;
+          font-size: 1em;
+          line-height: 1.4;
+      }
+      </code>
+
+      <ul>
+
+        <li>Stylesheet language</li>
+
+        <li>Css 3</li>
+      </ul>
+
+   </section>
+
+   <section id="javascript" class="main-section">
+
+    <header>
+
+      <h2>JAVASCRIPT</h2>
+
+     </header>
+
+     <p>JavaScript (JS) is a lightweight interpreted or JIT-compiled programming language with first-class functions. While it is most well-known as the scripting language for Web pages, many non-browser environments also use it, such as Node.js, Apache CouchDB and Adobe Acrobat. JavaScript is a prototype-based, multi-paradigm, dynamic language, supporting object-oriented, imperative, and declarative (e.g. functional programming) styles. Read more about JavaScript.</p>
+      <p>Do not confuse JavaScript with the Java programming language. Both "Java" and "JavaScript" are trademarks or registered trademarks of Oracle in the U.S. and other countries. However, the two programming languages have very different syntax, semantics, and uses.</p>
+
+      <code>if (true) {
+        let y = 5;
+      }
+      console.log(y);  
+      // ReferenceError: y is not defined</code>
+
+      <ul>
+
+        <li>Front-end and Back-end Language</li>
+
+        <li>Node.js forever</li>
+      </ul>
+
+   </section>
+
+   <section id="react" class="main-section">
+
+    <header>
+
+      <h2>REACT</h2>
+
+     </header>
+
+     <p>React.js¹ is a flexible and efficient front end javascript library for building UI, and is considered the most in demand in the job markets in 2018. It’s also considered as one of the most popular javascript frameworks these days. Even though we know that learning React comes with a steep learning curve, it is worthwhile as it makes developing apps more efficient & fun. Taking all of the above into consideration, we can state that this year is considered to be the year of React.js as the best javascript framework available on the market.</p>
+      <p>In plain English, React is considered to be the View ‘V’ in the Model View Controller (MVC) model. Views are the logic-less files that are controlled by a ‘Controller’. React does not replace the view, rather it makes it more modular by creating highly reusable components (pop up modals, lists, sortable tables, etc.).</p>
+
+      <code>
+        class HelloMessage extends React.Component {
+          render() {
+            return (
+              <div>
+                Hello {this.props.name}
+              </div>
+            );
+          }
+        }
+        
+        ReactDOM.render(
+          <HelloMessage name="Taylor" />,
+          mountNode
+        );
+
+
+      </code>
+
+      <ul>
+
+        <li>Best Framework</li>
+
+        <li>Big community</li>
+      </ul>
+
+   </section>
+
+
+
+  </main>
+
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
   <script src="js/vendor/modernizr-3.6.0.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
   <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>

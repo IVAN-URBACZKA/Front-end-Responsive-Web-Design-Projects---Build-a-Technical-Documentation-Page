@@ -97,7 +97,56 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    
 
+}
+
+#navbar{
+    padding: 5%;
+}
+
+main{
+    padding: 5%;
+}
+
+
+@media (min-width:768px){
+   
+}
+
+@media (min-width:1024px){
+    body{
+        flex-direction: row;
+    }
+
+    #navbar{
+        border-right: 2px solid black;
+        padding: 1%;
+    }
+
+    main{
+        padding: 2%;
+    }
+
+    li{
+        list-style: none;
+    }
+
+    a{
+        color: #222;
+        font-size: 20px;
+        text-decoration: none;
+    }
+
+    a:hover{
+        text-decoration: underline;
+    }
+    
+}
 
 
 
